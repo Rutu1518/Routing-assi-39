@@ -1,0 +1,13 @@
+.Navbar-Container{
+    background-color: antiquewhite;
+    padding: 20px;
+   
+}
+.nav-menu{
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
