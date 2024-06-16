@@ -1,10 +1,10 @@
 import Navbar from "./../../component/Navbar/navbar"
 
-const Contact = () =>{
+const  Review= () =>{
     return(<>
     <Navbar/>
-
-    <h1>Contact</h1>
+   
+    <h1>Review Page</h1>
     </>)
  }
- export default Contact
+ export default Review
