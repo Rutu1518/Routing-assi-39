@@ -1,6 +1,11 @@
+
+
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import "./CarouselPage.css"
+import "./../../component/CarouselPage/CarouselPage.css"
+import img1 from "./img/slider-img-baby-shopping.jpg"
+import img2 from "./img/Slider-img-baby-shoping.jpg"
+import img3 from "./img/Slider-img2-baby-shopping.jpg"
 
 function CarouselPage() {
   return (
@@ -8,17 +13,17 @@ function CarouselPage() {
       <Carousel data-bs-theme="dark">
       <Carousel.Item>
         <img className="d-block w-100 mt-5 height"
-          src="https://www.grabon.in/indulge/wp-content/uploads/2021/07/Best-Baby-Shopping-Websites-India.jpg" fluid 
+          src={img1} fluid 
           alt="First slide"/>
         {/* <Carousel.Caption>
-          <h5>First slide label</h5>
+          <h5>Trust Of Mothers</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption> */}
       </Carousel.Item>
 
       <Carousel.Item>
         <img className="d-block w-100 mt-5 height"
-          src="https://www.grabon.in/indulge/wp-content/uploads/2021/07/Best-Baby-Shopping-Websites-India.jpg" fluid 
+          src={img2} fluid 
           alt="Second slide"/>
         {/* <Carousel.Caption>
           <h5>Second slide label</h5>
@@ -28,7 +33,7 @@ function CarouselPage() {
 
       <Carousel.Item>
         <img className="d-block w-100 mt-5  height"
-          src="https://www.grabon.in/indulge/wp-content/uploads/2021/07/Best-Baby-Shopping-Websites-India.jpg" fluid 
+          src={img3} fluid 
           alt="Third slide"/>
         {/* <Carousel.Caption>
           <h5>Third slide label</h5>

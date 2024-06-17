@@ -10,8 +10,13 @@ import natural from "./Natural.svg"
 
 function Service() {
   return (
-    <div className='Srvice-Container'>
-       
+    <div>
+{/* 
+       <div className='Service-header'>
+         <h1>Services</h1>
+       </div> */}
+
+       <div  className='Srvice-Container'>
         <div className='img1'>
            <img src={Source} className="srvice-img"/>  
            <p className='service-text'> Originally Sourced</p>     
@@ -42,7 +47,7 @@ function Service() {
           <img src={natural} className="srvice-img"/>   
           <p className='service-text'> Natural Products</p>   
         </div>          
-      
+        </div>
     </div>
   )
 }

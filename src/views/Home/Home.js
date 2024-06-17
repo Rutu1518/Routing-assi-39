@@ -3,7 +3,10 @@ import "./Home.css"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import CarouselPage from "../../CarouselPage";
+
+import  CarouselPage from"./../../component/CarouselPage/CarouselPage";
+
+import Slider from "./../../component/Blogs/Blogs"
 
 import umbrella from "./umbrella.jfif"
 import shoes  from "./shoes.jfif"
@@ -12,6 +15,8 @@ import toys from "./toys.jfif"
 import boys from "./boy-cloths.jfif"
 import girls from "./girls-cloths.jfif"
 import Service from "../../component/Service/Service";
+import { Slide } from "react-slideshow-image";
+import Blogs from "./../../component/Blogs/Blogs";
 
 const Home = () => {
     return(<>
@@ -36,11 +41,24 @@ const Home = () => {
 
     <div>
        <video controls  className="home-video">
-         <source src="https://www.youtube.com/watch?v=JNQXAC9IVRw" type="mp4"/>        
+         <source src="https://www.youtube.com/watch?v=JNQXAC9IVRw" type="mp4"/>   
+         <p></p>     
        </video>
     </div>
   
     <Service/>
+    <Blogs/>
+     <div>
+      <div>
+        <img src=""/>
+        <p></p>
+      </div>
+      
+      <div>
+        <img src=""/>
+        <p></p>
+      </div>
+     </div>
     
     </>)
  }
