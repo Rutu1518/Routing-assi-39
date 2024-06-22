@@ -24,22 +24,12 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
-    margin-left: 75px;
+   
 }
 
-.home-video {
-    margin-top: 50px;
-    margin-left: 250px;
-    height: 400px;
-    width: calc(100% - 500px);
-}
 
-@media screen and (max-width: 1200px) {
-    .home-video {
-        margin-left: 150px; 
-        width: calc(100% - 300px); 
-    }
-}
+
+
 
 @media screen and (max-width: 768px) {
     .umbrealla-img {
